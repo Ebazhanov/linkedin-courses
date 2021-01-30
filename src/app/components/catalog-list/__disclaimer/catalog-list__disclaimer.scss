@@ -1,9 +1,9 @@
 .catalog-list__disclaimer {
+  margin: 0;
+  margin-bottom: 16px;
   font-size: 14px;
   line-height: 20px;
-  margin: 0;
   grid-area: disclaimer;
-  margin-bottom: 16px;
 
   @media (min-width: 768px) {
     width: 60%;

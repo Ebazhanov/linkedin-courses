@@ -1,4 +1,6 @@
 .dialog {
+  box-sizing: border-box;
+  min-height: 100%;
   padding: 12px;
   background-color: darkgray;
 }

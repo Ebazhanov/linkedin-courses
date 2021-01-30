@@ -6,8 +6,8 @@
 
   @media (min-width: 768px) {
     display: grid;
-    grid-template-areas: "disclaimer icon"
-      "input icon";
+    grid-template-areas: 'disclaimer icon'
+      'input icon';
     gap: 8px;
   }
 }
