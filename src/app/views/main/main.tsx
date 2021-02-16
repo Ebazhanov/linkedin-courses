@@ -40,7 +40,7 @@ const MainView: React.FC = () => {
 
     return (
         <Page>
-            <Dialog title="Skill Assessments">
+            <Dialog title="LinkedIn Skill assessment preparation">
                 <CatalogList
                     disclaimer="Check your skill level. Answer 15 multiple choice questions&nbsp;15, score in the top 30%, and earn a skill badge."
                     searchValue={searchQuery}
