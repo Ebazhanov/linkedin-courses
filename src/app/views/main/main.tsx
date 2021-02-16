@@ -42,7 +42,7 @@ const MainView: React.FC = () => {
         <Page>
             <Dialog title="Skill Assessments">
                 <CatalogList
-                    disclaimer="Check your skill level. Answer 15 multiple choice questions&nbsp;15&nbsp;, score in the top 30%, and earn a skill badge."
+                    disclaimer="Check your skill level. Answer 15 multiple choice questions&nbsp;15, score in the top 30%, and earn a skill badge."
                     searchValue={searchQuery}
                     onSearchInputChange={searchQueryHandler}
                     menu={<Menu
