@@ -7,12 +7,13 @@ import Menu from 'app/components/menu';
 
 import allCourses from 'app/constants/courses';
 
-const ALL_ITEMS_MENU_ITEM_TITLE = 'Все';
+const ALL_ITEMS_MENU_ITEM_TITLE = 'All';
+const RECOMMENDED = 'Recommended';
 
 const MainView: React.FC = () => {
     const [courses, setCourses] = useState(allCourses);
     const [searchQuery, setSearchQuery] = useState('');
-    const [activeCategoryItem, setActiveCategoryItem] = useState(ALL_ITEMS_MENU_ITEM_TITLE);
+    const [activeCategoryItem, setActiveCategoryItem] = useState(RECOMMENDED);
 
     const courseCategories = [ALL_ITEMS_MENU_ITEM_TITLE, ...new Set(allCourses.map((course) => course.category))];
 
@@ -39,9 +40,9 @@ const MainView: React.FC = () => {
 
     return (
         <Page>
-            <Dialog title="Оценка навыков">
+            <Dialog title="Skill Assessments">
                 <CatalogList
-                    disclaimer="Проверьте свой уровень владения навыками. Ответьте на&nbsp;15&nbsp;вопросов с&nbsp;множественным выбором, получите оценку в&nbsp;топ-30% и&nbsp;получите значок за&nbsp;навык."
+                    disclaimer="Check your skill level. Answer 15 multiple choice questions&nbsp;15&nbsp;, score in the top 30%, and earn a skill badge."
                     searchValue={searchQuery}
                     onSearchInputChange={searchQueryHandler}
                     menu={<Menu

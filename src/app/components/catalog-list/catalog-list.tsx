@@ -22,7 +22,7 @@ const CatalogList: React.FC<propType> = ({ children, disclaimer, searchValue, on
                     value={searchValue}
                     type="text"
                     className="catalog-list__input"
-                    placeholder="Поисковый запрос"
+                    placeholder="Search course"
                 />
             </div>
             <div className="catalog-list__menu">
