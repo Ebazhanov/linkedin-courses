@@ -12,6 +12,14 @@ const maxCourseImageIndex = courseImages.length - 1;
 
 const courses = [
   {
+    title: 'JavaScript',
+    image: courseImages[getRandomNumber(minCourseImageIndex, maxCourseImageIndex)],
+    description:
+      'JavaScript Advanced, JavaScript Fundamentals, Data Types and Structures, Functions, Objects, and Classes, Logic and Control Flow, Web Development',
+    url: 'https://www.udemy.com/course/linkedin-skill-assessments-quiz-html-react-css-js-nodejs-s/',
+    category: 'Recommended',
+  },
+  {
     title: 'Microsoft Project',
     image: courseImages[getRandomNumber(minCourseImageIndex, maxCourseImageIndex)],
     description:
@@ -205,8 +213,8 @@ const courses = [
     title: 'Cascading Style Sheets (CSS)',
     image: courseImages[getRandomNumber(minCourseImageIndex, maxCourseImageIndex)],
     description: 'CSS Properties, CSS Selectors, Layout, Syntax and Semantics, Typography',
-    url: 'https://www.udemy.com/course/linkedin-skill-assessment-quiz-helper-business',
-    category: 'Industry Knowledge',
+    url: 'https://www.udemy.com/course/linkedin-skill-assessments-quiz-html-react-css-js-nodejs-s/',
+    category: 'Recommended',
   },
   {
     title: 'Django',
@@ -270,8 +278,8 @@ const courses = [
     title: 'HTML',
     image: courseImages[getRandomNumber(minCourseImageIndex, maxCourseImageIndex)],
     description: 'Basic Structure, Forms, Global Attributes, Multimedia, Semantics',
-    url: 'https://www.udemy.com/course/linkedin-skill-assessment-quiz-helper-business',
-    category: 'Industry Knowledge',
+    url: 'https://www.udemy.com/course/linkedin-skill-assessments-quiz-html-react-css-js-nodejs-s',
+    category: 'Recommended',
   },
   {
     title: 'iMovie',
@@ -423,8 +431,8 @@ const courses = [
     title: 'Node.js',
     image: courseImages[getRandomNumber(minCourseImageIndex, maxCourseImageIndex)],
     description: 'Console, Events, HTTP, Modules, Packages',
-    url: 'https://www.udemy.com/course/linkedin-skill-assessment-quiz-helper-business',
-    category: 'Industry Knowledge',
+    url: 'https://www.udemy.com/course/linkedin-skill-assessments-quiz-html-react-css-js-nodejs-s/',
+    category: 'Recommended',
   },
   {
     title: 'NoSQL',
@@ -489,8 +497,8 @@ const courses = [
     title: 'React.js',
     image: courseImages[getRandomNumber(minCourseImageIndex, maxCourseImageIndex)],
     description: 'Basics, Components, ESNext Syntax, Hooks, Tools',
-    url: 'https://www.udemy.com/course/linkedin-skill-assessment-quiz-helper-business',
-    category: 'Industry Knowledge',
+    url: 'https://www.udemy.com/course/linkedin-skill-assessments-quiz-html-react-css-js-nodejs-s',
+    category: 'Recommended',
   },
   {
     title: 'REST APIs',
